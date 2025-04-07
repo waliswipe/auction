@@ -20,7 +20,7 @@ def index():
             {"name": "Alice Lee", "email": "alice@example.com", "phone": "555-123-4567"},
         ]
 
-    return render_template("data.html", data=data)
+    return render_template("index.html", data=data)
 
 if __name__ == "__main__":
     app.run(debug=True)
